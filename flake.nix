@@ -36,7 +36,7 @@
     in
     {
 
-      overlays.wsgl-analyzer = final: prev: {
+      overlays.default = final: prev: {
         wgsl-analyzer = pkgs.callPackage mkWgslAnalyzer { };
       };
 
