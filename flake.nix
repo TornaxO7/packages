@@ -30,7 +30,6 @@
             description = "A language server implementation for the WGSL shading language";
             homepage = "https://github.com/wgsl-analyzer/wgsl-analyzer";
             license = lib.licenses.mit;
-            maintainers = [ maintainers.tailhook ];
           };
         };
     in
