@@ -24,6 +24,8 @@
             sha256 = "bYlKLFWsndiIraTCF8UD771JH+MZUto5pfszG0gD4GU=";
           };
 
+          cargoLock.lockFile = "./Cargo.lock'";
+
           cargoSha256 = "";
 
           meta = {
