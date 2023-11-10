@@ -21,15 +21,15 @@
             owner = "wgsl-analyzer";
             repo = pname;
             rev = version;
-            sha256 = "";
+            sha256 = "bYlKLFWsndiIraTCF8UD771JH+MZUto5pfszG0gD4GU=";
           };
 
           cargoSha256 = "";
 
-          meta = with pkgs.stdenv.lib; {
+          meta = {
             description = "A language server implementation for the WGSL shading language";
             homepage = "https://github.com/wgsl-analyzer/wgsl-analyzer";
-            license = licenses.mit;
+            license = lib.licenses.mit;
             maintainers = [ maintainers.tailhook ];
           };
         };
